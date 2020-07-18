@@ -1,14 +1,12 @@
-import React from 'react';
-import logo from './banner.png';
-import './App.css';
+import React from "react";
+import logo from "./banner.png";
+import "./App.css";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="banner" alt="logo" />    
-        
-      </header>
+      <Home></Home>
     </div>
   );
 }
