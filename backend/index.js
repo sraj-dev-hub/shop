@@ -7,6 +7,10 @@ app.use(
   "/static",
   express.static(path.join(__dirname, "../Frontend/build/static"))
 );
+app.use(
+  "/images",
+  express.static(path.join(__dirname, "../Frontend/build/images"))
+);
 app.get("/", (req, res) => {
   console.log(path.resolve(__dirname + "../Frontend/build/index.html"));
   res.sendFile(path.join(__dirname, "../Frontend/build/index.html"));
