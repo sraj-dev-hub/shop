@@ -9,7 +9,9 @@
     "react": "^16.13.1",
     "react-device-detect": "^1.13.1",
     "react-dom": "^16.13.1",
+    "react-responsive-carousel": "^3.2.9",
     "react-scripts": "3.4.1",
+    "react-slideshow-image": "^3.0.0",
     "react-spring": "^8.0.27",
     "styled-components": "^5.1.1"
   },

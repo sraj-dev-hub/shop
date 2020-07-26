@@ -1,0 +1,36 @@
+.detail-container {
+  padding-top: 2rem;
+}
+.product-image {
+  /* max-width: 21rem; */
+  background: white;
+}
+.product-details{
+  padding: 10px;
+  text-align: left;
+}
+
+.product-price{
+  display: inline-block;
+  font-size: 24px;
+  color: #fe4c50;
+  font-weight: 500;
+}
+.product-stock{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.product-stock .in{
+  color:green;
+}
+
+.product-stock .out{
+  color:red;
+}
+
+.imageSilder{
+  margin-left: auto;
+    margin-right: 28px;
+    width: 25rem;
+}

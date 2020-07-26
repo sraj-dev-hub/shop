@@ -37,6 +37,9 @@
   }
 }
 
-.banner{
+.banner {
   width: 80%;
+}
+.app_container {
+  margin-top: 5rem;
 }
