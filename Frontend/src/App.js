@@ -18,7 +18,7 @@ function App() {
             <Link to="/">Home</Link>
           </a>
 
-          {/* <Link to="/product">product</Link> */}
+          <Link to="/product"></Link>
         </Navbar>
         <div className="app_container">
           <Route path="/" exact={true} component={Home} />
