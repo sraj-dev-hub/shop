@@ -28,10 +28,10 @@ function Product(props) {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div className="continer">
+    <div className="container">
       <div className="detail-container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-11">
             <div className="imageSilder">
               <Carousel>
                 {product.imageSet.map((item) => (
@@ -42,7 +42,7 @@ function Product(props) {
               </Carousel>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 col-sm-11">
             <div className="product-details">
               <h2>{product.name}</h2>
               <p>{product.desc}</p>
@@ -58,6 +58,7 @@ function Product(props) {
               <hr></hr>
               <div className="contactSeller">Contact Seller</div>
             </div>
+         
           </div>
         </div>
       </div>
