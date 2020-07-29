@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./style.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -22,6 +22,11 @@ function Product(props) {
   console.log(props.match.params.id);
   const product = getById(props.match.params.id);
   console.log(getById(props.match.params.id));
+
+  useEffect(() => {
+    console.log("entere")
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="continer">
       <div className="detail-container">

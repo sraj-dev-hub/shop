@@ -35,7 +35,7 @@ function Home(props) {
       <div class="container">
         <div class="row">
           {products.map((product) => (
-            <div class="col-md-3">
+            <div key={product._id} class="col-md-3">
               <div
                 class="card product-item"
                 onClick={() => {

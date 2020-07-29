@@ -1,7 +1,7 @@
 export const products = [
   {
     _id: "1",
-    name: "fleshy red Printed Mask",
+    name: "Fleshy Red Printed Mask",
     image: "/images/p1.jpeg",
     imageSet: ["/images/p1.jpeg", "/images/p1-2.jpeg"],
     price: 40,
@@ -13,7 +13,7 @@ export const products = [
   },
   {
     _id: "2",
-    name: "fleshy red Printed Mask",
+    name: "Warli Print Mask",
     image: "/images/p2.jpeg",
     imageSet: ["/images/p2.jpeg", "/images/p2-2.jpeg"],
     price: 40,
@@ -25,7 +25,7 @@ export const products = [
   },
   {
     _id: "3",
-    name: "fleshy red Printed Mask",
+    name: "Black Bagh Print Mask",
     image: "/images/p3.jpeg",
     imageSet: ["/images/p3.jpeg", "/images/p3-2.jpeg"],
     price: 40,
@@ -37,9 +37,9 @@ export const products = [
   },
   {
     _id: "4",
-    name: "fleshy red Printed Mask",
-    image: "/images/p3.jpeg",
-    imageSet: ["/images/p3.jpeg", "/images/p1-3.jpeg"],
+    name: "Chaos Yellow Mask",
+    image: "/images/p4.jpeg",
+    imageSet: ["/images/p4.jpeg", "/images/p4-2.jpeg"],
     price: 40,
     inStock: true,
     shortDesc:
