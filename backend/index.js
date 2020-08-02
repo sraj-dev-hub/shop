@@ -11,7 +11,7 @@ app.use(
   "/images",
   express.static(path.join(__dirname, "../Frontend/build/images"))
 );
-app.get("/", (req, res) => {
+app.get("/*", (req, res) => {
   console.log(path.resolve(__dirname + "../Frontend/build/index.html"));
   res.sendFile(path.join(__dirname, "../Frontend/build/index.html"));
   //   res.send("This is from express.js");
